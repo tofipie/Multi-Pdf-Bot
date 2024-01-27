@@ -49,7 +49,7 @@ def get_conversation_chain(vectorstore):
          retriever=vectorstore.as_retriever(),
          memory=memory
     )
-return conversation_chain
+     return conversation_chain
 
 
 
